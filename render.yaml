@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: worq-demo
+    runtime: node
+    plan: free
+    buildCommand: npm install --prefix source && npm run build --prefix source
+    startCommand: node backend/server.mjs
+    healthCheckPath: /api/health
+    envVars:
+      - key: VITE_API_URL
+        value: /api
+      - key: WORQ_SECRET
+        generateValue: true

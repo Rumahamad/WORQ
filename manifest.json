@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "projectId": "744ea64c-a033-4e48-b553-df5ff403aac8",
+  "exportedAt": "2026-09-18T09:07:46.037355719Z",
+  "sourceAvailable": true,
+  "databaseFormat": "postgresql-sql",
+  "readdyFiles": 0,
+  "databaseTables": 0,
+  "functions": 0,
+  "secrets": 0,
+  "storageBuckets": 0,
+  "storageObjects": 0
+}
